@@ -1,6 +1,6 @@
 const tracks = [
     {
-        title: "CA FONK",
+        title: "CAR FONK",
         artist: "Mix2025",
         cover: "https://i.pinimg.com/474x/47/c6/8f/47c68f7ff53f38e1b87994a6fafdccdc.jpg",
         url: "aggressive-phonk-phonk-2025-mix-239735.mp3"
@@ -10,7 +10,7 @@ const tracks = [
         artist: "Galibri & Mavik",
         cover: "https://pic.latvijasradio.lv/public/assets/media/b/b/square_44ef7f5b.jpg",
         url: "Galibri & Mavik - Федерико Феллини (1).mp3"
-        
+
     },
     {
         title: "Дарите Женщинам Цветы",
@@ -66,13 +66,117 @@ const tracks = [
         cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjrfrdeUlo4H5j4KSz6y0UOMpM5f0aLMS9lQ&s",
         url: "Хабиб - Ягода Малинка.mp3"
     },
+
     {
         title: "burn-funk",
         artist: "Phonk Master",
         cover: "https://lastfm.freetls.fastly.net/i/u/300x300/d7d862b2a8ace490f10e969599e7dd12",
         url: "Phonk Montagem Phonk Ultra Vol 14.mp3"
     },
+    {
+        title: " drift-phonk ",
+        artist: "2025mix   ",
+        cover: " https://i.pinimg.com/736x/9c/f1/ac/9cf1ac61b0be5240b1b441fa2e78bc3c.jpg  ",
+        url: " drift-phonk-2-phonk-2025-mix-178692.mp3  "
+    },
+    {
+        title: " drift-rush-house ",
+        artist: "2025mix   ",
+        cover: " https://i1.sndcdn.com/artworks-000570883103-b6ad3p-t500x500.jpg  ",
+        url: " drift-rush-house-phonk-phonk-2025-mix-164907.mp3  "
+    },
+    {
+        title: " Чак Норрис ",
+        artist: "Galibri & Mavik",
+        cover: " https://i1.sndcdn.com/artworks-R1U0LqeOCKXFijAC-eWnCMQ-t240x240.jpg  ",
+        url: "  Galibri & Mavik - Чак Норрис.mp3 "
+    },
+    {
+        title: "Minor  ",
+        artist: " MiyaGi & Andy Panda  ",
+        cover: "  https://yho.moe/wp-content/uploads/2020/07/01-Minor-Miyagi-and-Andy-Panda-770x770.jpg ",
+        url: "  MiyaGi & Andy Panda - Minor.mp3 "
+    },
+    {
+        title: "5x30  ",
+        artist: " pione_  ",
+        cover: " https://i1.sndcdn.com/artworks-h9f0M2VHMs6ziXbt-z8y23Q-t500x500.png  ",
+        url: " pione_-_5x30_(musmore.org).mp3  "
+    },
+    {
+        title: "MONTAGEM TOMADA  ",
+        artist: " MXZI  ",
+        cover: " https://www.shazam.com/mkimage/image/thumb/Music116/v4/63/5a/c4/635ac4e1-d918-1232-0507-b3b8672cbee7/197189390739.jpg/1275x1275bb-60.webp  ",
+        url: "MXZI - MONTAGEM TOMADA.mp3  "
+    },
+    {
+        title: "Derniere Danse Funk  ",
+        artist: " Mc Kraken  ",
+        cover: "  https://source.boomplaymusic.com/group10/M00/02/14/bc88e39409a94ab596eaae9ba9145da7_464_464.jpg ",
+        url: "Mc Kraken Derniere Danse Funk.mp3  "
+    },
+    {
+        title: "  real-moonshine-funk",
+        artist: "dj-robe  ",
+        cover: " https://cdn-images.dzcdn.net/images/cover/dd06df5f8e151aa220eff9d731ea9201/0x1900-000000-80-0-0.jpg  ",
+        url: " dj-robe-wxrmane-real-moonshine-funk-2-1741575429.mp3 "
+    },
+    {
+        title: "Louca Encubada  ",
+        artist: "  Dj Samir ",
+        cover: " https://cdn-images.dzcdn.net/images/cover/a52ca522a1e183be0c130d1bf82a9b86/1900x1900-000000-80-0-0.jpg  ",
+        url: " Dj Samir - Louca Encubada.mp3 "
+    },
+    {
+        title: " Aurea Cosmica Japanese Funk ",
+        artist: "Dj Ksx ",
+        cover: " https://source.boomplaymusic.com/group10/M00/08/16/bba565e43b074722b6f38ae17fa06506H3000W3000_464_464.jpg  ",
+        url: "Dj Ksx 07 Aurea Cosmica Japanese Funk (Slowed).mp3  "
+    },
+    {
+        title: " unk da montanha slowed ",
+        artist: " chipbagov SCARIONIX  ",
+        cover: "https://avcdn.av.by/advertpreview/0000/5384/1526.jpeg  ",
+        url: " chipbagov SCARIONIX - Funk da montanha slowed.mp3 "
+    },
+    {
+        title: "Notion  ",
+        artist: "The Rare Occasions   ",
+        cover: "  https://i1.sndcdn.com/artworks-5zcynQU8TTNxz8VB-pdsd7w-t500x500.jpg ",
+        url: "The Rare Occasions - Notion.mp3  "
+    },
+    {
+        title: " ACIDO ",
+        artist: " UdieNnx  ",
+        cover: "  https://i.scdn.co/image/ab67616d0000b27323940e6c2a660abff3fd6415 ",
+        url: "UdieNnx - ACIDO.mp3  "
+    },
+    {
+        title: " Забила на стресс ",
+        artist: " Sabi  ",
+        cover: " https://i1.sndcdn.com/artworks-gmugAyilmrn8OsX2-Y7KUhg-t240x240.jpg  ",
+        url: "Sabi - Забила на стресс я делаю лям.mp3  "
+    },
+    {
+        title: " POOR ",
+        artist: "GQTIS   ",
+        cover: "https://i.scdn.co/image/ab67616d00001e02043d45657a421bb8898e6e02   ",
+        url: " GQTIS_POOR.mp3 "
+    },
+    {
+        title: " Ainsi Bas La Vida ",
+        artist: "Indila   ",
+        cover: " https://i1.sndcdn.com/artworks-jztYBM0ZnXiCp7tl-scSzyg-t500x500.jpg  ",
+        url: "Indila - Ainsi Bas La Vida.mp3  "
+    },
+    {
+        title: "   Cute Depressed",
+        artist: " Dyan Dxddy  ",
+        cover: " https://cdn-images.dzcdn.net/images/cover/782857740879ff07ab9a8892b5602897/1900x1900-000000-80-0-0.jpg  ",
+        url: "Dyan Dxddy Cute Depressed.mp3  "
+    },
     
+
 ];
 
 const container = document.getElementById("tracksContainer");
