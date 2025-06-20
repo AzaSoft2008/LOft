@@ -1,30 +1,5 @@
 const tracks = [
     {
-        title: "CAR FONK",
-        artist: "Mix2025",
-        cover: "https://i.pinimg.com/474x/47/c6/8f/47c68f7ff53f38e1b87994a6fafdccdc.jpg",
-        url: "aggressive-phonk-phonk-2025-mix-239735.mp3"
-    },
-    {
-        title: "Федерико Феллини",
-        artist: "Galibri & Mavik",
-        cover: "https://pic.latvijasradio.lv/public/assets/media/b/b/square_44ef7f5b.jpg",
-        url: "Galibri & Mavik - Федерико Феллини (1).mp3"
-
-    },
-    {
-        title: "Дарите Женщинам Цветы",
-        artist: "Jazzdauren",
-        cover: "https://avatars.yandex.net/get-music-content/9707577/d1ffffe7.a.25950517-1/300x300",
-        url: "Jazzdauren - Дарите Женщинам Цветы.mp3"
-    },
-    {
-        title: "burn-funk",
-        artist: "Phonk Master",
-        cover: "https://i.scdn.co/image/ab67616d0000b273f1b83f2b86255f5488f77004",
-        url: "Phonk Montagem Phonk Ultra Vol 9.mp3"
-    },
-    {
         title: "Coffee",
         artist: "beabadoobee",
         cover: "https://clubtone.do.am/_ld/6518/651812.jpg",
@@ -53,6 +28,37 @@ const tracks = [
         artist: "Artemas",
         cover: "https://cdn-images.dzcdn.net/images/cover/f54667e66c6f87d924391a92efb422d2/0x1900-000000-80-0-0.jpg",
         url: "Artemas - i like the way you kiss me.mp3"
+    },
+    {
+        title: "Notion  ",
+        artist: "The Rare Occasions   ",
+        cover: "  https://i1.sndcdn.com/artworks-5zcynQU8TTNxz8VB-pdsd7w-t500x500.jpg ",
+        url: "The Rare Occasions - Notion.mp3  "
+    },
+    {
+        title: "CAR FONK",
+        artist: "Mix2025",
+        cover: "https://i.pinimg.com/474x/47/c6/8f/47c68f7ff53f38e1b87994a6fafdccdc.jpg",
+        url: "aggressive-phonk-phonk-2025-mix-239735.mp3"
+    },
+    {
+        title: "Федерико Феллини",
+        artist: "Galibri & Mavik",
+        cover: "https://pic.latvijasradio.lv/public/assets/media/b/b/square_44ef7f5b.jpg",
+        url: "Galibri & Mavik - Федерико Феллини (1).mp3"
+
+    },
+    {
+        title: "Дарите Женщинам Цветы",
+        artist: "Jazzdauren",
+        cover: "https://avatars.yandex.net/get-music-content/9707577/d1ffffe7.a.25950517-1/300x300",
+        url: "Jazzdauren - Дарите Женщинам Цветы.mp3"
+    },
+    {
+        title: "burn-funk",
+        artist: "Phonk Master",
+        cover: "https://i.scdn.co/image/ab67616d0000b273f1b83f2b86255f5488f77004",
+        url: "Phonk Montagem Phonk Ultra Vol 9.mp3"
     },
     {
         title: "Горький Вкус",
@@ -139,12 +145,7 @@ const tracks = [
         cover: "https://avcdn.av.by/advertpreview/0000/5384/1526.jpeg  ",
         url: " chipbagov SCARIONIX - Funk da montanha slowed.mp3 "
     },
-    {
-        title: "Notion  ",
-        artist: "The Rare Occasions   ",
-        cover: "  https://i1.sndcdn.com/artworks-5zcynQU8TTNxz8VB-pdsd7w-t500x500.jpg ",
-        url: "The Rare Occasions - Notion.mp3  "
-    },
+    
     {
         title: " ACIDO ",
         artist: " UdieNnx  ",
