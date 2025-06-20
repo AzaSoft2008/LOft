@@ -1,6 +1,6 @@
 const tracks = [
     {
-        title: "CAR FONK",
+        title: "CA FONK",
         artist: "Mix2025",
         cover: "https://i.pinimg.com/474x/47/c6/8f/47c68f7ff53f38e1b87994a6fafdccdc.jpg",
         url: "���d"
