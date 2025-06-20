@@ -3,7 +3,7 @@ const tracks = [
         title: "CAR FONK",
         artist: "Mix2025",
         cover: "https://i.pinimg.com/474x/47/c6/8f/47c68f7ff53f38e1b87994a6fafdccdc.jpg",
-        url: "aggressive-phonk-phonk-2025-mix-239735.mp3"
+        url: "���d"
     },
     {
         title: "Федерико Феллини",
