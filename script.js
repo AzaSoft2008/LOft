@@ -3,26 +3,26 @@ const tracks = [
         title: "CAR FONK",
         artist: "Mix2025",
         cover: "https://i.pinimg.com/474x/47/c6/8f/47c68f7ff53f38e1b87994a6fafdccdc.jpg",
-        url: "musics2/aggressive-phonk-phonk-2025-mix-239735.mp3"
+        url: "aggressive-phonk-phonk-2025-mix-239735.mp3"
     },
     {
         title: "Федерико Феллини",
         artist: "Galibri & Mavik",
         cover: "https://pic.latvijasradio.lv/public/assets/media/b/b/square_44ef7f5b.jpg",
-        url: "musics3/Galibri & Mavik - Федерико Феллини (1).mp3"
+        url: "Galibri & Mavik - Федерико Феллини (1).mp3"
         
     },
     {
         title: "Дарите Женщинам Цветы",
         artist: "Jazzdauren",
         cover: "https://avatars.yandex.net/get-music-content/9707577/d1ffffe7.a.25950517-1/300x300",
-        url: "musics3/Jazzdauren - Дарите Женщинам Цветы.mp3"
+        url: "Jazzdauren - Дарите Женщинам Цветы.mp3"
     },
     {
         title: "burn-funk",
         artist: "Phonk Master",
         cover: "https://i.scdn.co/image/ab67616d0000b273f1b83f2b86255f5488f77004",
-        url: "musics3/Phonk Montagem Phonk Ultra Vol 9.mp3"
+        url: "Phonk Montagem Phonk Ultra Vol 9.mp3"
     },
     {
         title: "Coffee",
@@ -34,43 +34,43 @@ const tracks = [
         title: "The Loser",
         artist: "Verzache ",
         cover: "https://cdn-images.dzcdn.net/images/cover/4fb50577aafc3f1c7089c0bd553a95bb/0x1900-000000-80-0-0.jpg",
-        url: "musics/Verzache - The Loser.mp3"
+        url: "Verzache - The Loser.mp3"
     },
     {
         title: "Beanie",
         artist: "Chezile",
         cover: "https://images.wallpaperscraft.ru/image/single/siluet_noch_zvezdnoe_nebo_137292_1280x1280.jpg",
-        url: "musics2/Chezile - Beanie.mp3"
+        url: "Chezile - Beanie.mp3"
     },
     {
         title: "Space Song",
         artist: "First To Eleven",
         cover: "https://i1.sndcdn.com/artworks-uTKBZTnXAlVerzdr-kJkdyg-t500x500.jpg",
-        url: "musics/First To Eleven - Space Song.mp3"
+        url: "First To Eleven - Space Song.mp3"
     },
     {
         title: "i like the way you kiss me",
         artist: "Artemas",
         cover: "https://cdn-images.dzcdn.net/images/cover/f54667e66c6f87d924391a92efb422d2/0x1900-000000-80-0-0.jpg",
-        url: "musics2/Artemas - i like the way you kiss me.mp3"
+        url: "Artemas - i like the way you kiss me.mp3"
     },
     {
         title: "Горький Вкус",
         artist: "Султан Лагучев",
         cover: "https://www.meme-arsenal.com/memes/b1f9d911b6ab07f74ab055543550c64a.jpg",
-        url: "musics/Султан Лагучев - Горький Вкус.mp3"
+        url: "Султан Лагучев - Горький Вкус.mp3"
     },
     {
         title: "Ягода Малинка",
         artist: "Хабиб",
         cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjrfrdeUlo4H5j4KSz6y0UOMpM5f0aLMS9lQ&s",
-        url: "musics/Хабиб - Ягода Малинка.mp3"
+        url: "Хабиб - Ягода Малинка.mp3"
     },
     {
         title: "burn-funk",
         artist: "Phonk Master",
         cover: "https://lastfm.freetls.fastly.net/i/u/300x300/d7d862b2a8ace490f10e969599e7dd12",
-        url: "musics3/Phonk Montagem Phonk Ultra Vol 14.mp3"
+        url: "Phonk Montagem Phonk Ultra Vol 14.mp3"
     },
     
 ];
