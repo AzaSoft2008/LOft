@@ -182,6 +182,12 @@ const tracks = [
         cover: " https://cdn-images.dzcdn.net/images/cover/782857740879ff07ab9a8892b5602897/1900x1900-000000-80-0-0.jpg  ",
         url: "Dyan Dxddy Cute Depressed.mp3  "
     },
+    {
+        title: "   Cute Depressed",
+        artist: " Dyan Dxddy  ",
+        cover: "https://i.scdn.co/image/ab67616d0000b273ee0cbf865bd98584c360a3eb",
+        url: "  "
+    },
     
 
 ];
