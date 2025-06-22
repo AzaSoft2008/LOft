@@ -36,6 +36,12 @@ const tracks = [
         url: "The Rare Occasions - Notion.mp3  "
     },
     {
+        title: "We Don't Talk Anymore  ",
+        artist: "Charlie Puth feat. Selena Gomez  ",
+        cover: " https://play.muzfan.net/uploads/posts/2019-01/1548272103_7d2376b068cd11e7afcf9f9a7b7ea2a1-19022411_1381392765283569_206767165_o.jpg",
+        url: "Charlie Puth feat. Selena Gomez - We Don't Talk Anymore_(play.muzfan.net)  "
+    },
+    {
         title: "CAR FONK",
         artist: "Mix2025",
         cover: "https://i.pinimg.com/474x/47/c6/8f/47c68f7ff53f38e1b87994a6fafdccdc.jpg",
