@@ -48,19 +48,6 @@ const tracks = [
         url: "aggressive-phonk-phonk-2025-mix-239735.mp3"
     },
     {
-        title: "Федерико Феллини",
-        artist: "Galibri & Mavik",
-        cover: "https://pic.latvijasradio.lv/public/assets/media/b/b/square_44ef7f5b.jpg",
-        url: "Galibri & Mavik - Федерико Феллини (1).mp3"
-
-    },
-    {
-        title: "Дарите Женщинам Цветы",
-        artist: "Jazzdauren",
-        cover: "https://avatars.yandex.net/get-music-content/9707577/d1ffffe7.a.25950517-1/300x300",
-        url: "Jazzdauren - Дарите Женщинам Цветы.mp3"
-    },
-    {
         title: "burn-funk",
         artist: "Phonk Master",
         cover: "https://i.scdn.co/image/ab67616d0000b273f1b83f2b86255f5488f77004",
@@ -71,12 +58,6 @@ const tracks = [
         artist: "Султан Лагучев",
         cover: "https://www.meme-arsenal.com/memes/b1f9d911b6ab07f74ab055543550c64a.jpg",
         url: "Султан Лагучев - Горький Вкус.mp3"
-    },
-    {
-        title: "Ягода Малинка",
-        artist: "Хабиб",
-        cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjrfrdeUlo4H5j4KSz6y0UOMpM5f0aLMS9lQ&s",
-        url: "Хабиб - Ягода Малинка.mp3"
     },
 
     {
@@ -96,18 +77,6 @@ const tracks = [
         artist: "2025mix   ",
         cover: " https://i1.sndcdn.com/artworks-000570883103-b6ad3p-t500x500.jpg  ",
         url: " drift-rush-house-phonk-phonk-2025-mix-164907.mp3  "
-    },
-    {
-        title: " Чак Норрис ",
-        artist: "Galibri & Mavik",
-        cover: " https://i1.sndcdn.com/artworks-R1U0LqeOCKXFijAC-eWnCMQ-t240x240.jpg  ",
-        url: "  Galibri & Mavik - Чак Норрис.mp3 "
-    },
-    {
-        title: "Minor  ",
-        artist: " MiyaGi & Andy Panda  ",
-        cover: "  https://yho.moe/wp-content/uploads/2020/07/01-Minor-Miyagi-and-Andy-Panda-770x770.jpg ",
-        url: "  MiyaGi & Andy Panda - Minor.mp3 "
     },
     {
         title: "5x30  ",
@@ -157,12 +126,6 @@ const tracks = [
         artist: " UdieNnx  ",
         cover: "  https://i.scdn.co/image/ab67616d0000b27323940e6c2a660abff3fd6415 ",
         url: "UdieNnx - ACIDO.mp3  "
-    },
-    {
-        title: " Забила на стресс ",
-        artist: " Sabi  ",
-        cover: " https://i1.sndcdn.com/artworks-gmugAyilmrn8OsX2-Y7KUhg-t240x240.jpg  ",
-        url: "Sabi - Забила на стресс я делаю лям.mp3  "
     },
     {
         title: " POOR ",
