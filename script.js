@@ -53,12 +53,6 @@ const tracks = [
         cover: "https://i.scdn.co/image/ab67616d0000b273f1b83f2b86255f5488f77004",
         url: "Phonk Montagem Phonk Ultra Vol 9.mp3"
     },
-    {
-        title: "Горький Вкус",
-        artist: "Султан Лагучев",
-        cover: "https://www.meme-arsenal.com/memes/b1f9d911b6ab07f74ab055543550c64a.jpg",
-        url: "Султан Лагучев - Горький Вкус.mp3"
-    },
 
     {
         title: "burn-funk",
