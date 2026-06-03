@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soundbit</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4214/4214835.png">
 </head>
 
 <body>
+
 
     <header>
         <h1>Soundbit🔥</h1>
@@ -26,20 +28,59 @@
     <main id="tracksContainer">
         <!-- Треки динамически добавляются через JS -->
     </main>
-    
 
-    <footer id="player">
-        <div id="currentTrack">
-            <div class="track-marquee-text">Ничего не воспроизводится</div>
-        </div>
-        <div id="audioControls">
-            <button id="playPauseBtn">▶</button>
-            <div id="progressContainer">
-                <div id="progressBar"></div>
+
+    <footer id="player" class="hidden-player">
+
+        <button id="closePlayer">✖</button>
+
+        <div id="playerContent">
+
+            <img id="playerCover" src="" alt="cover">
+
+            <div id="playerInfo">
+
+                <div id="trackTexts">
+                    <h3 id="trackTitle">Название трека</h3>
+                    <p id="trackArtist">Автор</p>
+                </div>
+
+                <div id="audioControls">
+
+                    <div id="mainButtons">
+                        <button id="prevBtn">◁</button>
+
+                        <button id="backwardBtn">◀</button>
+
+                        <button id="playPauseBtn">▷</button>
+
+                        <button id="forwardBtn">▶</button>
+
+                        <button id="nextBtn">▷</button>
+
+                        <button id="repeatBtn">↻</button>
+                    </div>
+
+                    <div id="progressContainer">
+                        <div id="progressBar"></div>
+                    </div>
+
+                    <div id="timeContainer">
+                        <span id="currentTime">00:00</span>
+                        /
+                        <span id="duration">00:00</span>
+                    </div>
+                    <canvas id="visualizer"></canvas>
+                    <div id="volumeWrapper">
+                        <span id="volumeIcon">🔊</span>
+
+                        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+                    </div>
+
+                </div>
+
             </div>
-            <div id="timeContainer">
-                <span id="currentTime">00:00</span> / <span id="duration">00:00</span>
-            </div>
+
         </div>
         <audio id="audioPlayer"></audio>
     </footer>
