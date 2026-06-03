@@ -35,6 +35,7 @@ header input {
 main {
     flex: 1;
     padding: 1rem;
+
     padding-bottom: 120px;
     /* отступ под фиксированный плеер */
     display: grid;
@@ -78,8 +79,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/002/558/899/non_2x/modern-black-abstract-header-the-look-of-stainless-steel-banner-circular-lines-on-a-black-background-vector.jpg
-);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -103,70 +103,127 @@ main {
 
 footer#player {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #1c1c1c;
-    padding: 1rem;
+
+    top: 20px;
+    left: 50%;
+
+    transform: translateX(-50%);
+    left: 50%;
+
+    width: 95%;
+    max-width: 1300px;
+
+   background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.719),
+    rgba(0, 0, 0, 0.664)
+
+);
+    backdrop-filter: blur(12px);
+
+    border-radius: 25px;
+    padding: 20px;
+
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+
+    z-index: 999;
+
+    transition: 0.4s ease;
+
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    z-index: 999;
-    color: white;
-    font-family: Arial, sans-serif;
+    gap: 15px;
+    transition: all 0.4s ease;
+    position: fixed;
+    overflow: hidden;
+    
 }
 
 #currentTrack {
+    font-size: 1.1rem;
     font-weight: bold;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    text-align: center;
 }
 
 #audioControls {
     display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#mainButtons {
+    display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 10px;
 }
 
 #playPauseBtn {
-    background-color: #444;
+    background: #333;
     border: none;
     color: white;
-    font-size: 1.5rem;
-    padding: 0.3rem 0.8rem;
-    border-radius: 5px;
+    padding: 10px 18px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#playPauseBtn:hover {
-    background-color: #666;
+    font-size: 1.2rem;
 }
 
 #progressContainer {
-    flex: 1;
-    height: 6px;
-    background-color: #333;
-    border-radius: 3px;
+    width: 100%;
+    height: 7px;
+    background: #333;
+    border-radius: 20px;
+    overflow: hidden;
     cursor: pointer;
-    position: relative;
 }
 
 #progressBar {
     height: 100%;
     width: 0%;
     background: linear-gradient(90deg, #00b4d8, #0077b6);
-    border-radius: 3px;
-    transition: width 0.2s ease;
 }
 
 #timeContainer {
     font-size: 0.9rem;
-    min-width: 80px;
-    text-align: right;
-    font-family: monospace;
-    user-select: none;
+    color: #ccc;
+}
+
+#volumeControl {
+    width: 180px;
+}
+
+#closePlayer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(10px);
+
+    transition: all 0.10s ease;
+
+    z-index: 9999;
+}
+
+#closePlayer:hover {
+    transform: scale(1.1);
+    background: rgba(255, 80, 80, 0.8);
+    box-shadow: 0 0 15px rgba(255, 80, 80, 0.5);
+}
+
+#closePlayer:active {
+    transform: scale(0.30);
 }
 
 body {
@@ -238,4 +295,187 @@ body {
 
 .jumpBtn:hover {
     background-color: #555;
+}
+
+
+
+#playerCover {
+    width: 320px;
+    height: 320px;
+
+    min-width: 110px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+
+    box-shadow: 0 4px 15px rgba(105, 104, 104, 0.63);
+    background: #22222231;
+}
+
+#trackTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#trackTitle {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#trackArtist {
+    color: #aaa;
+    font-size: 0.95rem;
+}
+
+
+
+.hidden-player {
+    opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
+
+    bottom: -300px !important;
+}
+
+#playerContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+
+}
+
+
+#playerInfo {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#trackTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#trackTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#trackArtist {
+    font-size: 1.1rem;
+    color: #aaa;
+}
+
+#audioControls {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#mainButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#playPauseBtn {
+    width: 70px !important;
+    height: 70px !important;
+
+    font-size: 1.8rem;
+
+    background: linear-gradient(135deg,
+            #00b4d8,
+            #013b5a) !important;
+
+    box-shadow: 0 0 25px rgba(0, 180, 216, .5);
+
+    border-radius: 50%;
+}
+
+#audioControls {
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+#trackTexts {
+    margin-bottom: auto;
+}
+
+#mainButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#mainButtons button {
+    width: 55px;
+    height: 55px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(0, 0, 0, 0.144);
+    color: white;
+
+    font-size: 1.3rem;
+    cursor: pointer;
+
+    backdrop-filter: blur(10px);
+
+    transition: all 0.25s ease;
+}
+
+#mainButtons button:hover {
+    transform: scale(1.1);
+
+    background: rgba(255, 255, 255, 0.15);
+
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+#mainButtons button:active {
+    transform: scale(0.95);
+}
+
+.active-repeat {
+    background: linear-gradient(135deg,
+            #00b4d8,
+            #0077b6) !important;
+
+    box-shadow: 0 0 20px rgba(0, 180, 216, .5);
+}
+
+#visualizer {
+    width: 100%;
+    height: 80px;
+
+    margin-top: 10px;
+
+    display: block;
+
+    border-radius: 0 0 20px 20px;
+}
+#volumeWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#volumeIcon {
+    font-size: 22px;
+    user-select: none;
 }
